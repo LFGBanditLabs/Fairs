@@ -1,0 +1,16 @@
+{
+  "name": "fairs-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy-local": "node scripts/deploy.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.17.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.2.0",
+    "chai": "^4.3.7"
+  }
+}
